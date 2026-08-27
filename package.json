@@ -1,0 +1,34 @@
+{
+  "name": "next-ai-armor",
+  "version": "0.1.0",
+  "description": "Next.js 16 + Claude API SaaS starter — resumable SSE streaming, Stripe subscriptions, Supabase multi-tenant RLS, Better Auth passkeys. The hard parts are solved so you can ship.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@supabase/ssr": "^0.5.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "16.3.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "stripe": "^17.0.0",
+    "vercel-armor": "^0.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
